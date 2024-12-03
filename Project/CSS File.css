@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffffe6;
+}
+
+.header {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid rgb(255, 0, 0);
+}
+
+
+.header h1 {
+    margin: 0;
+    color: #c900ab;
+}
+
+.header p {
+    color: #660f66;
+}
+
+.navigationbar {
+    background-color: #e3f6e3;
+    overflow: hidden;
+}
+
+.navigationbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navigationbar ul li {
+    display: inline;
+}
+
+.navigationbar ul li a {
+    color: rgb(103, 4, 252);
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navigationbar ul li a:hover {
+    background-color: white;
+}
+ 
