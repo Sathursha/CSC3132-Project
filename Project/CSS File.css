@@ -1,51 +1,102 @@
+<style>
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Verdana', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffffe6;
+    background-color: #1e1e2f;
+    color: #d1d1e0;
 }
-
-.header {
-    background-color: white;
+header {
+    background-color: #292940;
+    color: #00d4ff;
     text-align: center;
-    padding: 20px;
-    border-bottom: 5px solid rgb(255, 0, 0);
+    padding: 30px 10%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
-
-
-.header h1 {
+header h1 {
+    font-size: 3em;
     margin: 0;
-    color: #c900ab;
+    text-transform: uppercase;
 }
-
-.header p {
-    color: #660f66;
+header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #a0a0d0;
 }
-
-.navigationbar {
-    background-color: #e3f6e3;
-    overflow: hidden;
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #20203b;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
-
-.navigationbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.navigationbar ul li {
-    display: inline;
-}
-
-.navigationbar ul li a {
-    color: rgb(103, 4, 252);
-    padding: 14px 20px;
+nav a {
+    color: #00d4ff;
     text-decoration: none;
-    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.1em;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+nav a:hover {
+    background-color: #1e1e2f;
+}
+.hero {
+    background: linear-gradient(to bottom right, #292940, #1e1e2f);
+    text-align: center;
+    padding: 70px 20px;
+    color: #ffffff;
+}
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+.hero p {
+    font-size: 1.2em;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.features {
+    background-color: #1c1c3e;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature {
+    background-color: #7a355a;
+    border: 5px solid #f3ef11;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(16, 242, 152, 0.4);
+    transition: transform 0.3s;
+}
+.feature:hover {
+    transform: translateY(-10px);
+}
+.feature li {
+    a{
+        color: #08f55f;
+    }
+    color:rgb(216, 25, 57);
+    margin-bottom: 10px;
+}
+.feature p {
+    font-size: 1em;
+    color: #96c4b5;
+}
+footer {
+    background-color: #20203b;
+    color: #a0a0d0;
+    text-align: center;
+    padding: 20px 10%;
+}
+footer p {
+    margin: 0;
 }
 
-.navigationbar ul li a:hover {
-    background-color: white;
-}
- 
+</style>
