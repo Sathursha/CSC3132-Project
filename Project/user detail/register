@@ -2,9 +2,9 @@
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Database connection details
-    $servername = "localhost";  
-    $username = "root";         
-    $password = "";             
+    $servername = "mariadb";  
+    $username = " mariadb";         
+    $password = "mariadb";             
     $database = "learning_platform";  
     // Create connection
     $conn = new mysqli($servername, $username, $password, $database);
