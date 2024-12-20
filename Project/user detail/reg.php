@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <h1>User Registration Form</h1>
-    <form action="register.php" method="post">
+    <form action="reg.php" method="post">
         <label for="name">Full Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
 
